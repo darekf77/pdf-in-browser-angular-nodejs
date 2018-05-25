@@ -1,2 +1,23 @@
-<button (click)="print()"> Print pdf from blob </button>
-<a href="http://localhost:3000/">Open PDF</a>
+<!-- <button (click)="print()"> Print pdf from blob </button> -->
+<br>
+<br>
+<br>
+<a href="http://localhost:3000/pdf/inline">Open PDF inline </a>
+<br>
+<br>
+<br>
+<a href="http://localhost:3000/pdf/attachment">Open PDF attachment </a>
+<br>
+<br>
+<br>
+<a (click)="openDialog()"> Open pdf.js </a>
+
+
+
+<ng-template #dialog >
+    <a (click)="openDialog()"> Close </a>
+  <iframe src="/assets/viewer/web/viewer.html?file=http://localhost:3000/pdf/attachment"
+          width="{{screen.width}}"
+          height="{{screen.height}}">
+  </iframe>
+</ng-template>

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { toBase64String } from '@angular/compiler/src/output/source_map';
+import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { MatDialogRef, MatDialog } from "@angular/material/dialog";
 import printjs from 'print-js';
 
 @Component({
@@ -8,71 +8,38 @@ import printjs from 'print-js';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
-  iframe: HTMLElement = undefined;
-  document = undefined;
+
+  @ViewChild('dialog') dialog: TemplateRef<any>;
+
+  constructor(public matDialog: MatDialog) {
+
+  }
+
+  openPdfjs = false;
+
+
 
   ngOnInit(): void {
 
-    this.document = window.document;
   }
 
-  print() {
-    const req = new XMLHttpRequest();
-    req.open('POST', 'http://localhost:3000', false);
-    req.send(null);
-    if (req.status === 200) {
+  dialogRef: MatDialogRef<any>
 
+  screen = {
+    width: 0,
+    height: 0
+  }
 
-      this.invokePrint({
-        data: req.responseText
-      });
-      // this.invokeDownload({
-      //   data: req.responseText
-      // });
+  openDialog() {
+    this.screen.height = window.innerHeight
+    this.screen.width = window.innerWidth
+    if (this.dialogRef) {
+      this.dialogRef.close()
+      this.dialogRef = undefined;
     }
-
-  }
-  invokeDownload(response) {
-    const blob = new Blob([response.data], {
-      type: 'application/pdf'
-    });
-
-    // const blob = new Blob(['1,2,3,Something Test'], { type: 'text/csv' });
-    // console.log('blob', blob);
-    const link = this.document.createElement('a');
-    link.href = window.URL.createObjectURL(blob);
-    link.download = 'file.pdf';
-    link.click();
-  }
-
-
-
-
-  invokePrint(response) {
-    const blob = new Blob([response.data], {
-      type: 'application/pdf'
-    });
-    // const blob = new Blob(['1,2,3,Something Test'], { type: 'text/csv' });
-
-    const url = window.URL.createObjectURL(blob);
-
-    if (this.iframe) {
-      this.iframe.remove();
+    else {
+      this.dialogRef = this.matDialog.open(this.dialog)
     }
-
-    this.iframe = this.document.createElement('iframe');
-    this.iframe.style.display = 'none';
-
-    this.iframe.onload = () => {
-      setTimeout(() => {
-        this.iframe.focus();
-        this.iframe['contentWindow'].print();
-      });
-    };
-
-    this.document.body.appendChild(this.iframe);
-    this.iframe['src'] = url;
   }
 
 

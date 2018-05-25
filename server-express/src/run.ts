@@ -27,12 +27,21 @@ const pathes = {
 const fileWord = fs.readFileSync(pathes.word);
 const filePDF = fs.readFileSync(pathes.pdf);
 
-app.post('/', function (req, res, next) {
+app.get('/pdf/inline', function (req, res, next) {
     var file = fs.createReadStream(pathes.pdf);
     var stat = fs.statSync(pathes.pdf);
     res.setHeader('Content-Length', stat.size);
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', 'attachment; filename=quote.pdf');
+    res.setHeader('Content-Disposition', 'inline; filename=quote.pdf');    
+    file.pipe(res);
+});
+
+app.get('/pdf/attachment', function (req, res, next) {
+    var file = fs.createReadStream(pathes.pdf);
+    var stat = fs.statSync(pathes.pdf);
+    res.setHeader('Content-Length', stat.size);
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', 'attachment; filename=quote.pdf');    
     file.pipe(res);
 });
 

@@ -1,14 +1,35 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>ClientWordInResponse</title>
   <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <link rel="icon"
+        type="image/x-icon"
+        href="favicon.ico">
+  <script src="/assets/viewer/web/viewer.js"></script>
 </head>
+
 <body>
   <app-root></app-root>
+  <script>
+    (function () {
+      function printWhenReady() {
+        if (typeof PDFViewerApplication !== 'undefined' && PDFViewerApplication.initialized) {
+          window.print();
+        }
+        else {
+          window.setTimeout(printWhenReady, 3000);
+        }
+      };
+
+      printWhenReady();
+    })();
+  </script>
 </body>
+
 </html>
