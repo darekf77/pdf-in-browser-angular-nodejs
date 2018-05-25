@@ -1,0 +1,17 @@
+
+
+.my-dialog {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+}
+
+
+.my-dialog mat-icon {
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}

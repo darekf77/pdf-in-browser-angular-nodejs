@@ -1,4 +1,16 @@
 <!-- <button (click)="print()"> Print pdf from blob </button> -->
+
+<div class="my-dialog"
+     *ngIf="openPdfjs">
+
+  <mat-icon (click)="toogleDialog()">close</mat-icon>
+  <iframe src="/assets/viewer/web/viewer.html?file=http://localhost:3000/pdf/attachment"
+          width="{{screen.width - 70}}"
+          height="{{screen.height}}">
+  </iframe>
+</div>
+
+
 <br>
 <br>
 <br>
@@ -10,14 +22,4 @@
 <br>
 <br>
 <br>
-<a (click)="openDialog()"> Open pdf.js </a>
-
-
-
-<ng-template #dialog >
-    <a (click)="openDialog()"> Close </a>
-  <iframe src="/assets/viewer/web/viewer.html?file=http://localhost:3000/pdf/attachment"
-          width="{{screen.width}}"
-          height="{{screen.height}}">
-  </iframe>
-</ng-template>
+<a href="javascript:void(0)" (click)="toogleDialog()"> Open pdf.js dialog </a>

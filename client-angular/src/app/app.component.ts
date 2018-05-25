@@ -30,16 +30,10 @@ export class AppComponent implements OnInit {
     height: 0
   }
 
-  openDialog() {
+  toogleDialog() {
     this.screen.height = window.innerHeight
     this.screen.width = window.innerWidth
-    if (this.dialogRef) {
-      this.dialogRef.close()
-      this.dialogRef = undefined;
-    }
-    else {
-      this.dialogRef = this.matDialog.open(this.dialog)
-    }
+    this.openPdfjs = !this.openPdfjs;
   }
 
 
