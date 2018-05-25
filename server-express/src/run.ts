@@ -17,6 +17,8 @@ app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(errorHandler());
 app.use(cors());
+
+
 //#endregion
 
 const pathes = {
@@ -27,12 +29,21 @@ const pathes = {
 const fileWord = fs.readFileSync(pathes.word);
 const filePDF = fs.readFileSync(pathes.pdf);
 
+// var unoconv = require('unoconv');
+
+
+// unoconv.convert('document.docx', 'pdf', function (err, result) {
+//     // result is returned as a Buffer
+//     fs.writeFile('converted.pdf', result);
+// });
+
+
 app.get('/pdf/inline', function (req, res, next) {
     var file = fs.createReadStream(pathes.pdf);
     var stat = fs.statSync(pathes.pdf);
     res.setHeader('Content-Length', stat.size);
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', 'inline; filename=quote.pdf');    
+    res.setHeader('Content-Disposition', 'inline; filename=quote.pdf');
     file.pipe(res);
 });
 
@@ -41,7 +52,7 @@ app.get('/pdf/attachment', function (req, res, next) {
     var stat = fs.statSync(pathes.pdf);
     res.setHeader('Content-Length', stat.size);
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', 'attachment; filename=quote.pdf');    
+    res.setHeader('Content-Disposition', 'attachment; filename=quote.pdf');
     file.pipe(res);
 });
 
