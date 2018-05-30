@@ -14,7 +14,8 @@ export class AppComponent implements OnInit {
   isOpen = {
     'js-pdf': false,
     'ms-word': false,
-    'google': false
+    'google': false,
+    'gtech-ms-word': false
   };
 
 
