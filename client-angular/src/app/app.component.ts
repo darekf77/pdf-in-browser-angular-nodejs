@@ -11,13 +11,16 @@ export class AppComponent implements OnInit {
 
   @ViewChild('dialog') dialog: TemplateRef<any>;
 
+  isOpen = {
+    'js-pdf': false,
+    'ms-word': false,
+    'google': false
+  };
+
+
   constructor(public matDialog: MatDialog) {
 
   }
-
-  openPdfjs = false;
-
-
 
   ngOnInit(): void {
 
@@ -30,10 +33,18 @@ export class AppComponent implements OnInit {
     height: 0
   }
 
-  toogleDialog() {
+  toogleDialog(type) {
+
     this.screen.height = window.innerHeight
     this.screen.width = window.innerWidth
-    this.openPdfjs = !this.openPdfjs;
+    Object.keys(this.isOpen).forEach(key => {
+      if (key === type) {
+        this.isOpen[key] = !this.isOpen[key];
+      } else {
+        this.isOpen[key] = false
+      }
+    })
+    console.log('isopen', this.isOpen)
   }
 
 

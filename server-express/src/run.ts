@@ -56,6 +56,27 @@ app.get('/pdf/attachment', function (req, res, next) {
     file.pipe(res);
 });
 
+
+app.get('/word/attachment', function (req, res, next) {
+    var file = fs.createReadStream(pathes.word);
+    var stat = fs.statSync(pathes.word);
+    res.setHeader('Content-Length', stat.size);
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+    res.setHeader('Content-Disposition', 'attachment; filename=quote.docx');
+    file.pipe(res);
+});
+
+
+app.get('/word/inline', function (req, res, next) {
+    var file = fs.createReadStream(pathes.word);
+    var stat = fs.statSync(pathes.word);
+    res.setHeader('Content-Length', stat.size);
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+    res.setHeader('Content-Disposition', 'inline; filename=quote.docx');
+    file.pipe(res);
+});
+
+
 // app.post('/', (req, res) => {
 
 //     res.contentType("application/pdf");

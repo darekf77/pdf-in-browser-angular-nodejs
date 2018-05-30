@@ -1,25 +1,59 @@
 <!-- <button (click)="print()"> Print pdf from blob </button> -->
 
 <div class="my-dialog"
-     *ngIf="openPdfjs">
+     *ngIf="isOpen['js-pdf']">
 
-  <mat-icon (click)="toogleDialog()">close</mat-icon>
+  <mat-icon (click)="toogleDialog('js-pdf')">close</mat-icon>
   <iframe src="/assets/viewer/web/viewer.html?file=http://localhost:3000/pdf/attachment"
           width="{{screen.width - 70}}"
           height="{{screen.height}}">
   </iframe>
 </div>
 
+<div class="my-dialog"
+     *ngIf="isOpen['ms-word']">
 
-<br>
-<br>
-<br>
+  <mat-icon (click)="toogleDialog('ms-word')">close</mat-icon>
+  asdasd
+  <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=http://localhost:3000/word/attachment'
+          width="{{screen.width - 70}}"
+          height="{{screen.height}}"
+          frameborder='0'>This is an embedded
+    <a target='_blank'
+       href='http://office.com'>Microsoft Office</a> document, powered by
+    <a target='_blank'
+       href='http://office.com/webapps'>Office Online</a>.</iframe>
+</div>
+
+
+
+<div class="my-dialog"
+     *ngIf="isOpen['google']">
+
+  <mat-icon (click)="toogleDialog('google')">close</mat-icon>
+  asdasd
+  <iframe src='https://docs.google.com/gview?url=http://localhost:3000/word/attachment&embedded=true'
+          width="{{screen.width - 70}}"
+          height="{{screen.height}}"
+          ></iframe>
+</div>
+
+
+
+
+
 <a href="http://localhost:3000/pdf/inline">Open PDF inline </a>
-<br>
-<br>
-<br>
 <a href="http://localhost:3000/pdf/attachment">Open PDF attachment </a>
-<br>
-<br>
-<br>
-<a href="javascript:void(0)" (click)="toogleDialog()"> Open pdf.js dialog </a>
+<a href="http://localhost:3000/word/inline">Open word inline </a>
+<a href="http://localhost:3000/word/attachment">Open word attachment </a>
+
+<hr>
+
+<a href="javascript:void(0)"
+   (click)="toogleDialog('js-pdf')"> Open pdf.js dialog </a>
+<a href="javascript:void(0)"
+   (click)="toogleDialog('ms-word')">Open Word online dialog </a>
+<a href="javascript:void(0)"
+   (click)="toogleDialog('google')">Open Google dialog </a>
+
+
