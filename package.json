@@ -1,4 +1,22 @@
 {
+  "tnp": {
+    "resources": [],
+    "overrided": {
+      "linkedFolders": [],
+      "ignoreDepsPattern": [
+        "*"
+      ],
+      "includeAsDev": [],
+      "includeOnly": [],
+      "dependencies": {}
+    },
+    "linkedProjects": [],
+    "libReleaseOptions": {
+      "nodts": false,
+      "obscure": false,
+      "ugly": false
+    }
+  },
   "name": "pdf-in-browser-angular-nodejs",
   "version": "1.0.0",
   "description": "3 way to handle pdf sended from expressjs",
@@ -15,5 +33,7 @@
   "bugs": {
     "url": "https://github.com/darekf77/pdf-in-browser-angular-nodejs/issues"
   },
-  "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme"
+  "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
