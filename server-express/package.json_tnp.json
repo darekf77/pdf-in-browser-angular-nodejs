@@ -1,4 +1,6 @@
 {
+  "version": "v2",
+  "type": "isomorphic-lib",
   "resources": [],
   "overrided": {
     "linkedFolders": [],

@@ -1,4 +1,6 @@
 {
+  "version": "v2",
+  "type": "container",
   "resources": [],
   "overrided": {
     "linkedFolders": [],
