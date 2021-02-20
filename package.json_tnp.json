@@ -1,7 +1,7 @@
 {
+  "resources": [],
   "version": "v2",
   "type": "container",
-  "resources": [],
   "overrided": {
     "linkedFolders": [],
     "ignoreDepsPattern": [
@@ -17,5 +17,13 @@
     "obscure": false,
     "ugly": false
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "3 way to handle pdf sended from expressjs",
+  "license": "ISC",
+  "author": "",
+  "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme",
+  "main": "index.js"
 }
