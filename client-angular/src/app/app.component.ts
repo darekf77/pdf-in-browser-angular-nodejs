@@ -1,5 +1,5 @@
 import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
-import { MatDialogRef, MatDialog } from "@angular/material/dialog";
+import { MatDialogRef, MatDialog } from '@angular/material/dialog';
 import printjs from 'print-js';
 
 @Component({

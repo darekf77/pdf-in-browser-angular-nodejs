@@ -39,7 +39,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular-devkit/build-angular": "0.901.3",
     "@angular-devkit/build-optimizer": "0.900.0-rc.7",
