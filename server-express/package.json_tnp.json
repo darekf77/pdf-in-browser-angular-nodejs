@@ -1,7 +1,7 @@
 {
+  "resources": [],
   "version": "v2",
   "type": "isomorphic-lib",
-  "resources": [],
   "overrided": {
     "linkedFolders": [],
     "ignoreDepsPattern": [
@@ -16,5 +16,13 @@
     "nodts": false,
     "obscure": false,
     "ugly": false
-  }
+  },
+  "scripts": {
+    "start": "tsc && node dist/run.js"
+  },
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "app.js",
+  "private": false
 }
