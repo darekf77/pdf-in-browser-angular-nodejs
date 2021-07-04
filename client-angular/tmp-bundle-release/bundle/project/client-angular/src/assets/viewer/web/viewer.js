@@ -88,7 +88,7 @@
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.localized = exports.animationStarted = exports.normalizeWheelEventDelta = exports.binarySearchFirstItem = exports.watchScroll = exports.scrollIntoView = exports.getOutputScale = exports.approximateFraction = exports.roundToDivide = exports.getVisibleElements = exports.parseQueryString = exports.noContextMenuHandler = exports.getPDFFileNameFromURL = exports.ProgressBar = exports.EventBus = exports.NullL10n = exports.mozL10n = exports.RendererType = exports.cloneObj = exports.VERTICAL_PADDING = exports.SCROLLBAR_PADDING = exports.MAX_AUTO_SCALE = exports.UNKNOWN_SCALE = exports.MAX_SCALE = exports.MIN_SCALE = exports.DEFAULT_SCALE = exports.DEFAULT_SCALE_VALUE = exports.CSS_UNITS = undefined;
@@ -581,7 +581,7 @@ module.exports = pdfjsLib;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.getGlobalEventBus = exports.attachDOMEventsToEventBus = undefined;
@@ -703,7 +703,7 @@ exports.getGlobalEventBus = getGlobalEventBus;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -841,7 +841,7 @@ exports.PDFRenderingQueue = PDFRenderingQueue;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFPrintServiceFactory = exports.DefaultExternalServices = exports.PDFViewerApplication = undefined;
@@ -2553,7 +2553,7 @@ exports.PDFPrintServiceFactory = PDFPrintServiceFactory;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.SimpleLinkService = exports.PDFLinkService = undefined;
@@ -2958,7 +2958,7 @@ exports.SimpleLinkService = SimpleLinkService;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFCursorTools = exports.CursorTool = undefined;
@@ -3098,7 +3098,7 @@ exports.PDFCursorTools = PDFCursorTools;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFFindController = exports.FindState = undefined;
@@ -3525,7 +3525,7 @@ exports.PDFFindController = PDFFindController;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.GenericCom = undefined;
@@ -3601,7 +3601,7 @@ exports.GenericCom = GenericCom;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFPrintService = undefined;
@@ -4604,7 +4604,7 @@ document.webL10n = function (window, document, undefined) {
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.DefaultAnnotationLayerFactory = exports.AnnotationLayerBuilder = undefined;
@@ -4720,7 +4720,7 @@ exports.DefaultAnnotationLayerFactory = DefaultAnnotationLayerFactory;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.DownloadManager = undefined;
@@ -4804,7 +4804,7 @@ exports.DownloadManager = DownloadManager;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.GenericL10n = undefined;
@@ -4864,7 +4864,7 @@ exports.GenericL10n = GenericL10n;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 function GrabToPan(options) {
@@ -5005,7 +5005,7 @@ exports.GrabToPan = GrabToPan;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -5142,7 +5142,7 @@ exports.OverlayManager = OverlayManager;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PasswordPrompt = undefined;
@@ -5239,7 +5239,7 @@ exports.PasswordPrompt = PasswordPrompt;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFAttachmentViewer = undefined;
@@ -5394,7 +5394,7 @@ exports.PDFAttachmentViewer = PDFAttachmentViewer;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFDocumentProperties = undefined;
@@ -5613,7 +5613,7 @@ exports.PDFDocumentProperties = PDFDocumentProperties;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFFindBar = undefined;
@@ -5814,7 +5814,7 @@ exports.PDFFindBar = PDFFindBar;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFHistory = undefined;
@@ -6121,7 +6121,7 @@ exports.PDFHistory = PDFHistory;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFOutlineViewer = undefined;
@@ -6300,7 +6300,7 @@ exports.PDFOutlineViewer = PDFOutlineViewer;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFPageView = undefined;
@@ -6825,7 +6825,7 @@ exports.PDFPageView = PDFPageView;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFPresentationMode = undefined;
@@ -7218,7 +7218,7 @@ exports.PDFPresentationMode = PDFPresentationMode;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFSidebar = exports.SidebarView = undefined;
@@ -7568,7 +7568,7 @@ exports.PDFSidebar = PDFSidebar;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFThumbnailView = undefined;
@@ -7931,7 +7931,7 @@ exports.PDFThumbnailView = PDFThumbnailView;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFThumbnailViewer = undefined;
@@ -8143,7 +8143,7 @@ exports.PDFThumbnailViewer = PDFThumbnailViewer;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFViewer = exports.PresentationModeState = undefined;
@@ -8958,7 +8958,7 @@ exports.PDFViewer = PDFViewer;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.BasePreferences = undefined;
@@ -9119,7 +9119,7 @@ exports.BasePreferences = BasePreferences;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.SecondaryToolbar = undefined;
@@ -9344,7 +9344,7 @@ exports.SecondaryToolbar = SecondaryToolbar;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.DefaultTextLayerFactory = exports.TextLayerBuilder = undefined;
@@ -9688,7 +9688,7 @@ exports.DefaultTextLayerFactory = DefaultTextLayerFactory;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.Toolbar = undefined;
@@ -9916,7 +9916,7 @@ exports.Toolbar = Toolbar;
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 

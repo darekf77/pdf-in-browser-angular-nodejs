@@ -1,6 +1,28 @@
-# profiling files
-chrome-profiler-events*.json
-speed-measure-plugin*.json
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # misc
 /.sass-cache
@@ -11,51 +33,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-/tests-environments
 
 # System Files
 .DS_Store
 Thumbs.db
-
-
-/node_modules
-/tmp*
-/dist*
-/bundle*
-/browser
-/browser*
-/module*
-/backup
-/module
-/www
-/Thumbs.db
-/.DS_Store
-/**/.DS_Store
-/npm-debug.log*
-/.sass-cache
-/.sourcemaps
-/tsconfig.isomorphic.json
-/tsconfig.browser.json
-/.vscode/launch.json
-/.vscode/tasks.json
-/tsconfig.json
-/.npmrc
-/tslint.json
-/.editorconfig
-/index.js
-/index.d.ts
-/index.js.map
-/webpack.config.js
-/webpack.backend-bundle-build.js
-/run.js
-/tsconfig.isomorphic.json.filetemplate
-/tsconfig.browser.json.filetemplate
-/.vscode/launch.json.filetemplate
-/.vscode/tasks.json.filetemplate
-/tsconfig.json.filetemplate
-
-
-
-
-# =====================
-*.filetemplate
