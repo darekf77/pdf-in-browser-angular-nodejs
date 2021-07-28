@@ -271,6 +271,6 @@
     "start": "tsc && node dist/run.js"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "private": false
 }
