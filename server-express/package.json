@@ -25,7 +25,8 @@
     "license": "ISC",
     "author": "",
     "main": "app.js",
-    "private": false
+    "private": false,
+    "workerPlugins": {}
   },
   "name": "server-express",
   "version": "1.0.7",

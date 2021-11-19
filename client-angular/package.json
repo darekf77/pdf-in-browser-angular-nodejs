@@ -27,7 +27,8 @@
       "e2e": "ng e2e"
     },
     "private": true,
-    "license": "MIT"
+    "license": "MIT",
+    "workerPlugins": {}
   },
   "name": "client-angular",
   "version": "0.0.2",

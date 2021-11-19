@@ -25,5 +25,6 @@
   "license": "ISC",
   "author": "",
   "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme",
-  "main": "index.js"
+  "main": "index.js",
+  "workerPlugins": {}
 }
