@@ -273,5 +273,8 @@
   },
   "author": "",
   "license": "ISC",
-  "private": false
+  "private": false,
+  "recreatedFrom": {
+    "tnp.json": true
+  }
 }

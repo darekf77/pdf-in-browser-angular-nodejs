@@ -277,5 +277,8 @@
     "zone.js": "0.10.2"
   },
   "devDependencies": {},
-  "license": "MIT"
+  "license": "MIT",
+  "recreatedFrom": {
+    "tnp.json": true
+  }
 }
