@@ -37,6 +37,8 @@ Thumbs.db
 /.npmrc
 /tslint.json
 /.editorconfig
+/tsconfig.backend.dist.json
+/tsconfig.backend.bundle.json
 
 
 
