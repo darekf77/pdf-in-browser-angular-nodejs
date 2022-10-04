@@ -28,7 +28,8 @@
     },
     "private": true,
     "license": "MIT",
-    "workerPlugins": {}
+    "workerPlugins": {},
+    "linkedRepos": []
   },
   "name": "client-angular",
   "version": "0.0.2",
@@ -267,8 +268,5 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {},
-  "license": "MIT",
-  "recreatedFrom": {
-    "tnp.json": true
-  }
+  "license": "MIT"
 }

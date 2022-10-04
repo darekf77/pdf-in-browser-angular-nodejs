@@ -27,7 +27,8 @@
     "author": "",
     "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme",
     "main": "index.js",
-    "workerPlugins": {}
+    "workerPlugins": {},
+    "linkedRepos": []
   },
   "name": "pdf-in-browser-angular-nodejs",
   "version": "1.0.0",
@@ -282,8 +283,5 @@
     "zone.js": "0.10.2"
   },
   "devDependencies": {},
-  "private": true,
-  "recreatedFrom": {
-    "tnp.json": true
-  }
+  "private": true
 }
