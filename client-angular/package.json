@@ -29,7 +29,8 @@
     "private": true,
     "license": "MIT",
     "workerPlugins": {},
-    "linkedRepos": []
+    "linkedRepos": [],
+    "smartContainerBuildTarget": ""
   },
   "name": "client-angular",
   "version": "0.0.2",

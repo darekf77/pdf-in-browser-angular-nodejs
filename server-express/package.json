@@ -27,7 +27,8 @@
     "main": "app.js",
     "private": false,
     "workerPlugins": {},
-    "linkedRepos": []
+    "linkedRepos": [],
+    "smartContainerBuildTarget": ""
   },
   "name": "server-express",
   "version": "1.0.7",

@@ -28,7 +28,9 @@
     "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme",
     "main": "index.js",
     "workerPlugins": {},
-    "linkedRepos": []
+    "linkedRepos": [],
+    "smartContainerTarget": "",
+    "smartContainerBuildTarget": ""
   },
   "name": "pdf-in-browser-angular-nodejs",
   "version": "1.0.0",
