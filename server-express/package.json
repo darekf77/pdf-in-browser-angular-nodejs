@@ -16,7 +16,8 @@
     "libReleaseOptions": {
       "nodts": false,
       "obscure": false,
-      "ugly": false
+      "ugly": false,
+      "includeNodeModules": false
     },
     "scripts": {
       "start": "tsc && node dist/run.js"
