@@ -10,7 +10,8 @@
       ],
       "includeAsDev": [],
       "includeOnly": [],
-      "dependencies": {}
+      "dependencies": {},
+      "npmFixes": []
     },
     "linkedProjects": [],
     "libReleaseOptions": {
