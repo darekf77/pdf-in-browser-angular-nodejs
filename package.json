@@ -245,7 +245,7 @@
     "uglifyjs-webpack-plugin": "2.2.0",
     "underscore": "1.9.1",
     "uuid": "8.3.2",
-    "vpn-split": "16.5.4",
+    "vpn-split": "16.5.5",
     "watch": "1.0.2",
     "webpack-cli": "~3.3.11",
     "zone.js": "~0.10.2"
