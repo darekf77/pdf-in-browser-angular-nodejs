@@ -5,5 +5,10 @@
     "statusBar.background": "#999694"
   },
   "workbench.colorTheme": "Default Light+",
-  "files.exclude": {}
+  "files.exclude": {},
+  "search.exclude": {
+    "docs": true,
+    "projects": true,
+    "bin": true
+  }
 }
