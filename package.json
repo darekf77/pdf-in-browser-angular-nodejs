@@ -18,7 +18,9 @@
       "nodts": false,
       "obscure": false,
       "ugly": false,
-      "includeNodeModules": false
+      "cliBuildNoDts": false,
+      "cliBuildObscure": false,
+      "cliBuildIncludeNodeModules": false
     },
     "version": "v2",
     "type": "container",
