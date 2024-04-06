@@ -20,6 +20,7 @@
       "ugly": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
+      "cliBuildUglify": false,
       "cliBuildIncludeNodeModules": false
     },
     "version": "v2",
