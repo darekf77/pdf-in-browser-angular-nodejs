@@ -20,6 +20,7 @@
       "ugly": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
+      "cliBuildUglify": false,
       "cliBuildIncludeNodeModules": false
     },
     "scripts": {
@@ -268,5 +269,6 @@
   },
   "author": "",
   "license": "ISC",
-  "private": false
+  "private": false,
+  "main": "app.js"
 }
