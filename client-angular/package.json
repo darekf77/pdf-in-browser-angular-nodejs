@@ -20,7 +20,6 @@
       "ugly": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
-      "cliBuildUglify": false,
       "cliBuildIncludeNodeModules": false
     },
     "scripts": {
@@ -274,6 +273,5 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {},
-  "license": "MIT",
-  "main": "dist/app.electron.js"
+  "license": "MIT"
 }
