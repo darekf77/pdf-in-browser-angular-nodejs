@@ -32,7 +32,8 @@
     "private": false,
     "workerPlugins": {},
     "linkedRepos": [],
-    "smartContainerBuildTarget": ""
+    "smartContainerBuildTarget": "",
+    "linkedProjects": []
   },
   "name": "server-express",
   "version": "1.0.7",

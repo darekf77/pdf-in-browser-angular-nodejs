@@ -3,20 +3,15 @@
     "resources": [],
     "overrided": {
       "linkedFolders": [],
-      "ignoreDepsPattern": [
-        "*"
-      ],
+      "ignoreDepsPattern": [],
+      "npmFixes": [],
       "includeAsDev": [],
       "includeOnly": [],
-      "dependencies": {},
-      "npmFixes": []
+      "dependencies": {}
     },
     "smartContainerBuildTarget": "",
     "linkedRepos": [],
     "libReleaseOptions": {
-      "nodts": false,
-      "obscure": false,
-      "ugly": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
       "cliBuildUglify": false,
