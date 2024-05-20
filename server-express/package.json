@@ -1,33 +1,6 @@
 {
   "tnp": {
-    "resources": [],
-    "version": "v2",
-    "type": "isomorphic-lib",
-    "overrided": {
-      "linkedFolders": [],
-      "ignoreDepsPattern": [],
-      "npmFixes": [],
-      "includeAsDev": [],
-      "includeOnly": [],
-      "dependencies": {}
-    },
-    "libReleaseOptions": {
-      "cliBuildNoDts": false,
-      "cliBuildObscure": false,
-      "cliBuildUglify": false,
-      "cliBuildIncludeNodeModules": false
-    },
-    "scripts": {
-      "start": "tsc && node dist/run.js"
-    },
-    "description": "",
-    "license": "ISC",
-    "author": "",
-    "main": "app.js",
-    "private": false,
-    "workerPlugins": {},
-    "linkedRepos": [],
-    "smartContainerBuildTarget": ""
+    "resources": []
   },
   "name": "server-express",
   "version": "1.0.7",
