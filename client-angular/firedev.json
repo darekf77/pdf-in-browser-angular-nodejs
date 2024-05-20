@@ -4,18 +4,17 @@
   "type": "isomorphic-lib",
   "overrided": {
     "linkedFolders": [],
-    "ignoreDepsPattern": [
-      "*"
-    ],
+    "ignoreDepsPattern": [],
+    "npmFixes": [],
     "includeAsDev": [],
     "includeOnly": [],
     "dependencies": {}
   },
-  "linkedProjects": [],
   "libReleaseOptions": {
-    "nodts": false,
-    "obscure": false,
-    "ugly": false
+    "cliBuildNoDts": false,
+    "cliBuildObscure": false,
+    "cliBuildUglify": false,
+    "cliBuildIncludeNodeModules": false
   },
   "scripts": {
     "ng": "ng",
@@ -27,5 +26,7 @@
   },
   "private": true,
   "license": "MIT",
-  "workerPlugins": {}
+  "workerPlugins": {},
+  "linkedRepos": [],
+  "smartContainerBuildTarget": ""
 }

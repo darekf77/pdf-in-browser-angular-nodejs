@@ -5,18 +5,13 @@
     "type": "isomorphic-lib",
     "overrided": {
       "linkedFolders": [],
-      "ignoreDepsPattern": [
-        "*"
-      ],
+      "ignoreDepsPattern": [],
+      "npmFixes": [],
       "includeAsDev": [],
       "includeOnly": [],
-      "dependencies": {},
-      "npmFixes": []
+      "dependencies": {}
     },
     "libReleaseOptions": {
-      "nodts": false,
-      "obscure": false,
-      "ugly": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
       "cliBuildUglify": false,
@@ -34,8 +29,7 @@
     "license": "MIT",
     "workerPlugins": {},
     "linkedRepos": [],
-    "smartContainerBuildTarget": "",
-    "linkedProjects": []
+    "smartContainerBuildTarget": ""
   },
   "name": "client-angular",
   "version": "0.0.2",

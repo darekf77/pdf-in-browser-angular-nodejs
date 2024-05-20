@@ -1,34 +1,6 @@
 {
   "tnp": {
-    "resources": [],
-    "overrided": {
-      "linkedFolders": [],
-      "ignoreDepsPattern": [],
-      "npmFixes": [],
-      "includeAsDev": [],
-      "includeOnly": [],
-      "dependencies": {}
-    },
-    "smartContainerBuildTarget": "",
-    "linkedRepos": [],
-    "libReleaseOptions": {
-      "cliBuildNoDts": false,
-      "cliBuildObscure": false,
-      "cliBuildUglify": false,
-      "cliBuildIncludeNodeModules": false
-    },
-    "version": "v2",
-    "type": "container",
-    "private": true,
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "description": "3 way to handle pdf sended from expressjs",
-    "license": "ISC",
-    "author": "",
-    "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme",
-    "main": "index.js",
-    "workerPlugins": {}
+    "resources": []
   },
   "dependencies": {
     "@angular-devkit/build-angular": "~0.901.3",
