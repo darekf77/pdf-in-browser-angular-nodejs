@@ -230,5 +230,5 @@
   "homepage": "https://github.com/darekf77/pdf-in-browser-angular-nodejs#readme",
   "main": "index.js",
   "name": "pdf-in-browser-angular-nodejs",
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
